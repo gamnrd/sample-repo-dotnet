@@ -5,7 +5,7 @@ namespace TeleprompterConsole;
 internal class TelePrompterConfig
 {
     private object lockHandle = new object();
-    public int DelayInMilliseconds { get; private set; } = 200;
+    public int DelayInMilliseconds { get; private set; } = 120;
 
     public void UpdateDelay(int increment) // negative to speed up
     {
